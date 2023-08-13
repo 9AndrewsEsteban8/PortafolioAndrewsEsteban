@@ -3,11 +3,29 @@ body{
   color: white;
 }
 
-
-.foto_header{
-  width: 20%;
-  height: 20%;
+Header img{
+  width: 50px;
+  height: 50px;
 }
+
+
+
+
+.photo_home,.image_icon{
+  width: 50px;
+  height: 50px;
+}
+
+.myname{
+  font-size: 10px;
+}
+
+.title-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ; /* Dos columnas de igual ancho */
+  gap: 10px; /* Espacio entre las columnas */
+}
+
 
 a{
   color: white;
@@ -17,6 +35,24 @@ a{
 
 a:hover{
   color: rgb(239, 87, 87);
+}
+
+.jobs{
+  color: red;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(2%);
+  }
+}
+
+.title-container .jobs {
+  animation: scrollText 10s linear infinite;
+  /* Otros estilos del texto */
 }
 
 

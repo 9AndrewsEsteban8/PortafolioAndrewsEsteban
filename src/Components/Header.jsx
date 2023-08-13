@@ -1,26 +1,28 @@
 import React from 'react'
-import foto from '../images/Foto_Inicio.jpeg'
 import {faFacebook,faLinkedin,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import SocialIcon from './SocialIcon';
-
+import Menu from './Menu';
+import iconPage from '../images/Logo.png';
 
 
 const socialLinks = [
     { href: 'https://www.facebook.com/Esteban.Andrews', icon: faFacebook },
-    { href: 'http://linkedin.com', icon: faLinkedin },
-    { href: 'http://Intagram.com', icon: faInstagram },
-  ];
-  
-  const Header = () => {
+    { href: 'https://www.linkedin.com/in/andrews-esteban-601388140/', icon: faLinkedin },
+    { href: 'https://www.instagram.com/andrews_esteban/', icon: faInstagram },
+];
+
+const Header = () => {
     return (
-      <div>
-        Header
-        <img className="foto_header" src={foto} alt="foto.mia" />
+    <div>
+        <header>
+        <img src={iconPage} alt="Icono de página"/>
         {socialLinks.map((link, index) => (
             <SocialIcon key={index} href={link.href} icon={link.icon} />
         ))}
-      </div>
+        <Menu/>
+        </header>
+    </div>
     );
-  };
+};
 
 export default Header
