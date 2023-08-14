@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars} from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 const Menu = () => {
+
+  const [menu,setMenu] = useState(true)
+  const toggleMenu =() =>{
+    setMenu(!menu)
+  }
+
   return (
     <div>
-        <nav>
+        <button
+        onClick={toggleMenu}
+        >
+          <FontAwesomeIcon icon={faBars} size="2x"/>
+        </button>
+        <nav className={`menu ${menu ? 'active' : ''}`}>
             <a href="#">Home</a>
             <a href="#">Perfil</a>
             <a href="#">Tecnologias</a>
