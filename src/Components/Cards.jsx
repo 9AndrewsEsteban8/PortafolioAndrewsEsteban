@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Cards = () => {
+const Cards = ({modifier }) => {
+  const cardsClasses = `stytle_cards ${modifier ? `stytle_cards_${modifier}` : ''}`
   return (
-    <div>Cards</div>
+    <div className={cardsClasses}>Cards</div>
   )
 }
 

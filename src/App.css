@@ -61,19 +61,26 @@ button:hover{
 
 
 
-.photo_home,.image_icon{
+.image_icon{
   width: 50px;
   height: 50px;
 }
 
 .myname{
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .title-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr ; /* Dos columnas de igual ancho */
-  gap: 10px; /* Espacio entre las columnas */
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 30px;
+}
+
+.photo_home{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 
@@ -99,4 +106,32 @@ a:hover{
   animation: scrollText 10s linear infinite;
 }
 
+
+.stytle_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50px;
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom, red, white);
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.stytle_cards_Tecnology{
+  background: linear-gradient(to bottom, gray, white);
+}
+
+.styles_contact{
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.styles_contact img{
+  width: 250px;
+  height: 200px;
+  border-top-right-radius: 20px; 
+  border-bottom-right-radius: 20px; 
+}
 
