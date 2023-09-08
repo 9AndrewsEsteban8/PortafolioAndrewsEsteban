@@ -135,3 +135,31 @@ a:hover{
   border-bottom-right-radius: 20px; 
 }
 
+
+
+/* Media query para pantallas grandes (escritorios) */
+@media (min-width: 1024px) {
+  /* Estilos para pantallas grandes */
+}
+
+/* Media query para tabletas en orientación vertical */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Estilos para tabletas en orientación vertical */
+}
+
+/* Media query para tabletas en orientación horizontal */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Estilos para tabletas en orientación horizontal */
+}
+
+/* Media query para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 767px) {
+  /* Estilos para pantallas pequeñas */
+}
+
+
+/* Media query para dispositivos móviles con pantalla de hasta 320px de ancho */
+@media (max-width: 320px) {
+  /* Estilos específicos para dispositivos móviles con pantallas estrechas */
+
+}
