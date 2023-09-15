@@ -1,12 +1,12 @@
 import React from 'react'
 import Cards from './Cards'
 
-const Tecnology = () => {
+const Projects = () => {
   return (
-    <div>Tecnology
+    <div>
         <Cards modifier="Tecnology"/>
     </div>
   )
 }
 
-export default Tecnology
+export default Projects

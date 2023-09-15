@@ -11,12 +11,13 @@ header{
   gap: 70px;
 }
 
+
 .social_Networks{
   display: flex;
   gap: 10px;
 }
 
-.social_Networks a{
+a{
   color: white;
 }
 
@@ -47,19 +48,6 @@ Header img{
   height: 60px;
 }
 
-button{
-  background-color: transparent;
-  color: white;
-  border: none;
-}
-
-button:hover{
-  color: rgb(239, 87, 87);
-}
-
-
-
-
 
 .image_icon{
   width: 50px;
@@ -67,19 +55,21 @@ button:hover{
 }
 
 .myname{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .title-container{
 display: flex;
 flex-direction: column;
 align-items: center;
-font-size: 30px;
+justify-content: center;
+font-size: 18px;
+margin: 5%;
 }
 
 .photo_home{
-  width: 300px;
-  height: 300px;
+  width: 80vw;
+  height: 50vh;
   border-radius: 10px;
 }
 
@@ -93,17 +83,44 @@ a:hover{
   color: rgb(239, 87, 87);
 }
 
-@keyframes scrollText {
+.line{
+  display: none;
+}
+
+.icon-contact{
+  color:  rgb(239, 87, 87);;
+}
+
+.footer{
+  background-color: #7A7A7A;
+  padding: 5%;
+}
+
+
+
+
+
+@keyframes job-fade {
   0% {
-    transform: translateY(-2%);
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
   }
   100% {
-    transform: translateY(2%);
+    opacity: 1;
   }
 }
 
-.title-container .jobs {
-  animation: scrollText 10s linear infinite;
+.jobs {
+  animation: job-fade 5s infinite; 
+  margin-bottom: 5%;
 }
 
 
@@ -111,11 +128,9 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 50px;
-  width: 250px;
-  height: 250px;
+  width: 80vw;
+  height: 40vh;
   background: linear-gradient(to bottom, red, white);
-  margin-left: 50px;
   border-radius: 10px;
 }
 
@@ -124,22 +139,74 @@ a:hover{
 }
 
 .styles_contact{
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .styles_contact img{
-  width: 250px;
+  width: 100%;
   height: 200px;
-  border-top-right-radius: 20px; 
-  border-bottom-right-radius: 20px; 
 }
+
+.links_contact{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin: 5%;
+  font-size: 12px;
+}
+
+.Container_cards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+
+.containers_cardsred, .repo{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+
 
 
 
 /* Media query para pantallas grandes (escritorios) */
 @media (min-width: 1024px) {
-  /* Estilos para pantallas grandes */
+
+  .stytle_cards{
+    width: 25vw;
+    height: 45vh;
+  }
+
+  .photo_home{
+    width: 35vw;
+    height: 60vh;
+  }
+
+  .title-container{
+    flex-direction: row-reverse;
+
+  }
+
+  .containers_cardsred, .repo{
+    flex-direction: row;
+    margin: 5%;
+  }
+
+  .line {
+    display: block;
+    border-top: 5px solid white; 
+    margin: 20px 0; 
+    width: 80vw;
+  }
 }
 
 /* Media query para tabletas en orientación vertical */

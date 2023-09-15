@@ -1,8 +1,8 @@
 import React from 'react'
 import {faFacebook,faLinkedin,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import SocialIcon from './SocialIcon';
-import Menu from './Menu';
 import iconPage from '../images/Logo.png';
+
 
 
 const socialLinks = [
@@ -21,7 +21,6 @@ const Header = () => {
             <SocialIcon key={index} href={link.href} icon={link.icon} />
         ))}
         </nav>
-        <Menu/>
         </header>
     </div>
     );
