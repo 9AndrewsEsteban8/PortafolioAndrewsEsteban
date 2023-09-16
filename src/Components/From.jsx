@@ -15,7 +15,7 @@ const From = () => {
         <label>Correo</label>
         <input type="email" name='user_email' />
         <label>Mensaje</label>
-        <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+        <textarea name="user_message" id="" cols="30" rows="10" placeholder="Escribeme tu mensaje aquí"></textarea>
         <button>Enviar</button>
         </form>
     </div>

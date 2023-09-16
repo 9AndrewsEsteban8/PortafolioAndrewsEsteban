@@ -1,3 +1,6 @@
+
+/* Estilos globales */
+
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
 body{
@@ -6,6 +9,15 @@ body{
   font-family: 'Mooli', sans-serif;
 }
 
+a,h1{
+  color: white;
+}
+
+a:hover , .jobs, .icon-contact,.div-form label,.footer a:hover{
+  color: rgb(239, 87, 87);
+}
+
+/* Header*/
 
 header{
   display: flex;
@@ -21,100 +33,14 @@ header{
 }
 
 
-a,h1{
-  color: white;
-}
-
-Header img{
+header img{
   width: 60px;
   height: 60px;
-}
-
-
-.image_icon{
-  width: 50px;
-  height: 50px;
 }
 
 .myname{
   font-size: 18px;
 }
-
-.title-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-size: 18px;
-margin: 5%;
-}
-
-.photo_home{
-  width: 80vw;
-  height: 50vh;
-  border-radius: 10px;
-}
-
-
-
-a:hover , .jobs, .icon-contact,.div-form label{
-  color: rgb(239, 87, 87);
-}
-
-
-.line{
-  display: none;
-}
-
-
-.footer{
-  background-color: #7A7A7A;
-  padding: 5%;
-}
-
-.footer p{
-  text-align: center;
-  font-size: 10px;
-  margin-top: 20px;
-}
-
-.social_networks_footer{
-  display: flex;
-  justify-content: space-around;
-  gap: 100px;
-}
-
-
-
-.div-form input{
-  border-radius: 10px;
-  opacity: .8;
-}
-
-
-
-.form-mail{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1vh;
-  margin: 2%;
-}
-
-textarea{
-  color: white;
-  background-image: url(../src/images/fondodeveloper.jpeg);
-  background-size: cover;
-  opacity: 0.5;
-  border-radius: 10px;
-  resize: none;
-}
-
-
-
-
-
 
 @keyframes job-fade {
   0% {
@@ -139,6 +65,85 @@ textarea{
   margin-bottom: 5%;
 }
 
+.title-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+margin: 5%;
+}
+
+.photo_home{
+  width: 80vw;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+
+
+.line{
+  display: none;
+}
+
+/* Footer */
+
+.footer{
+  background-color:#FFDE59;
+  padding: 5%;
+}
+
+.footer a{
+  color: black;
+}
+
+.footer p{
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.social_networks_footer{
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+
+/* Contacto */
+
+
+.div-form input{
+  border-radius: 10px;
+  opacity: .8;
+}
+
+
+
+.form-mail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin: 2%;
+}
+
+textarea{
+  color: white;
+  background-image: url(../src/images/fondodeveloper.jpeg);
+  background-size: cover;
+  border-radius: 10px;
+  resize: none;
+  opacity: 0.7;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+/* Tarjetas */
 
 .stytle_cards{
   display: flex;
@@ -146,33 +151,9 @@ textarea{
   align-items: center;
   width: 80vw;
   height: 40vh;
-  background: linear-gradient(to bottom, red, white);
+  background: linear-gradient(to bottom,rgb(239, 87, 87), white);
   border-radius: 10px;
   padding: 20px;
-}
-
-.stytle_cards_Tecnology{
-  background: linear-gradient(to bottom, gray, white);
-}
-
-.styles_contact{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.styles_contact img{
-  width: 100%;
-  height: 200px;
-}
-
-.links_contact{
-  display: flex;
-  align-items: center;
-  gap: 2%;
-  margin: 5%;
-  font-size: 12px;
 }
 
 .Container_cards{
@@ -196,12 +177,13 @@ textarea{
 }
 
 .card_technology {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+  align-items: center;
+  justify-items: center;
 }
 
-.card_technology .photo {
-  position: absolute;
-}
 
 .animate {
   animation-name: moveImage;
@@ -226,49 +208,81 @@ textarea{
 }
 
 .photo_react {
-  bottom: 2%;
-  right: 2%;
+
   width: 20vw;
   height: 10vh;
 }
 
 .photo_hcj {
-  bottom: 30%;
   width: 40vw;
   height: 12vh;
 }
 
 .photo_GitHub {
-  left: 2%;
-  top: 2%;
+
   width: 13vw;
   height: 9vh;
 }
 
 .photo_Git {
-  bottom: 0;
+
   width: 17vw;
   height: 11vh;
 }
 
 .photo_Figma {
-  bottom: 2%;
-  left: 2%;
+
   width: 30vw;
   height: 11vh;
 }
 
 .photo_Excel {
-  top: 2%;
-  right: 2%;
+
   width: 20vw;
   height: 11vh;
 }
 
+.photo_Csharp {
+
+  width: 20vw;
+  height: 11vh;
+}
+.photo_C{
+  width: 20vw;
+  height: 11vh;
+}
+
+.photo_latex{
+  width: 25vw;
+  height: 11vh;
+}
+
+.stytle_cards_Tecnology{
+  background: linear-gradient(to bottom,#FFDE59, white);
+}
 
 
+/* Contacto */
 
+.styles_contact{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.styles_contact img{
+  width: 100%;
+  height: 200px;
+}
+
+.links_contact{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin: 5%;
+  font-size: 12px;
+}
 
 
 /* Media query para pantallas grandes (escritorios) */
