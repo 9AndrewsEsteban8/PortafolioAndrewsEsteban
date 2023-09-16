@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- npm install @emailjs/browser --save
+npm i axios
+
+* [@fortawesome](https://origin.fontawesome.com/v5/docs/web/use-with/react) - Libreria de iconos SVG
+* [@mdi-react](https://www.npmjs.com/package/@mdi/react) - Libreria de iconos SVG -->

@@ -16,7 +16,7 @@ const Header = () => {
     <div>
         <header>
         <img src={iconPage} alt="Icono de página"/>
-        <nav className='social_Networks'>
+        <nav className='social_networks'>
         {socialLinks.map((link, index) => (
             <SocialIcon key={index} href={link.href} icon={link.icon} />
         ))}

@@ -1,20 +1,19 @@
+
 import './App.css';
 import Contact_me from './Components/Contact_me';
 import Footer from './Components/Footer';
+import From from './Components/From';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Navbar from './Components/Navbar'
 import Header from './Components/Header';
 import Home from './Components/Home';
-import Perfil from './Components/Perfil';
+import Cards from './Components/Cards';
 import Projects from './Components/Projects';
+import Tecnology from './Components/Tecnology';
 
 
 
 function App() {
-  const perfiles = [
-    { nombre: "Perfil 1",  },
-    { nombre: "Perfil 2", }
-  ];
 
   const components = [];
   for (let i = 1; i <= 3; i++) {
@@ -26,10 +25,13 @@ function App() {
       <Home/>
       {/* <Navbar/> */}
       <section className='Container_cards'>
+        <h1>Sobre mi</h1>
         <div className='containers_cardsred'>
-        {perfiles.map((perfil,index)=>(
-          <Perfil key={index}/>
-        ))}
+        <Cards>
+          <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas He trabajado con tecnologías como React,Git y Guthub; centrándome en el desarrollo web. Mi principal objetivo es convertir diseños creativos en código funcional. Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades de compromiso y el trabajo en equipo. De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
+        </Cards>
+        <h1>Tecnologías</h1>
+        <Tecnology/>
         </div>
         <hr className="line" />
 
@@ -38,6 +40,7 @@ function App() {
       </div>
       </section>
       <Contact_me/>
+      <From/>
       <Footer/>
     </div>
   );

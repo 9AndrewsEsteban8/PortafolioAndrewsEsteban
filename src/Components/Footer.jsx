@@ -15,11 +15,14 @@ const socialLinks = [
 const Footer = () => {
   return (
     <div  className='footer'>
-      <nav>
+      <nav className='social_networks_footer'>
         {socialLinks.map((link,index)=>(
           <SocialIcon key={index} href={link.href} icon={link.icon}/>
         ))}
         </nav>
+        <p>
+        © 2023 Realizado por Andrews Esteban   Copyright All Rights Reserved.  
+        </p>
     </div>
   )
 }
