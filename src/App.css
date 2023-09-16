@@ -148,7 +148,7 @@ textarea{
   height: 40vh;
   background: linear-gradient(to bottom, red, white);
   border-radius: 10px;
-  padding: 12px;
+  padding: 20px;
 }
 
 .stytle_cards_Tecnology{
@@ -195,31 +195,74 @@ textarea{
 
 }
 
-.card_tecnology {
+.card_technology {
   position: relative;
 }
 
-
-#photo_react{
+.card_technology .photo {
   position: absolute;
-  bottom: 2%; 
+}
+
+.animate {
+  animation-name: moveImage;
+  animation-duration: 2s; 
+  animation-timing-function: ease; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translate(5px, 2px);
+  }
+  20% {
+    transform: translate(3px, 3px);
+  }
+  50% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(5px, 2px);
+  }
+}
+
+.photo_react {
+  bottom: 2%;
   right: 2%;
   width: 20vw;
   height: 10vh;
 }
-#photo-hcj{
-  position: absolute;
-  bottom: 30%; 
+
+.photo_hcj {
+  bottom: 30%;
   width: 40vw;
   height: 12vh;
 }
 
-#photo-GitHub{
-  position: absolute;
-  bottom: 2%; 
+.photo_GitHub {
   left: 2%;
-  width: 16vw;
-  height: 10vh;
+  top: 2%;
+  width: 13vw;
+  height: 9vh;
+}
+
+.photo_Git {
+  bottom: 0;
+  width: 17vw;
+  height: 11vh;
+}
+
+.photo_Figma {
+  bottom: 2%;
+  left: 2%;
+  width: 30vw;
+  height: 11vh;
+}
+
+.photo_Excel {
+  top: 2%;
+  right: 2%;
+  width: 20vw;
+  height: 11vh;
 }
 
 

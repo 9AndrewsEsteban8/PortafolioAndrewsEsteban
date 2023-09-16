@@ -34,7 +34,7 @@ function App() {
         <Tecnology/>
         </div>
         <hr className="line" />
-
+        <h1>Proyectos</h1>
         <div className='repo'>
       {components}
       </div>
