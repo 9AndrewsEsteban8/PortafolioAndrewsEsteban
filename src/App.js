@@ -28,7 +28,11 @@ function App() {
         <h1>Sobre mi</h1>
         <div className='containers_cardsred'>
         <Cards>
-          <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas He trabajado con tecnologías como React,Git y Guthub; centrándome en el desarrollo web. Mi principal objetivo es convertir diseños creativos en código funcional. Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades de compromiso y el trabajo en equipo. De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
+          <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas.<br/> 
+          He trabajado con tecnologías como React,Git y Github; centrándome en el desarrollo web. <br/> 
+          Mi principal objetivo es convertir diseños creativos en código funcional. <br/> 
+          Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades como el compromiso y el trabajo en equipo.<br/> 
+          De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
         </Cards>
         <h1>Tecnologías</h1>
         <Tecnology/>

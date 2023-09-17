@@ -22,8 +22,8 @@ const Tecnology = () => {
           <img className='photo photo_hcj animate' src={photoHCJ} alt="fotodehtmlcssyjavascript" />
           <img className='photo photo_Excel animate' src={photoExcel} alt="fotoExcel" />
           <img className='photo photo_Csharp animate' src={photoCsharp} alt="fotoCsharp" />
-          <img className='photo photo_C animate' src={photoC} alt="fotoC++" />
           <img className='photo photo_latex animate' src={photolatex} alt="fotolatex" />
+          <img className='photo photo_C animate' src={photoC} alt="fotoC++" />
         </div>
       </Cards>
     </div>

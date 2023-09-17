@@ -13,7 +13,11 @@ a,h1{
   color: white;
 }
 
-a:hover , .jobs, .icon-contact,.div-form label,.footer a:hover{
+a:hover ,
+.jobs, 
+.icon-contact,
+.div-form label,
+.footer a:hover{
   color: rgb(239, 87, 87);
 }
 
@@ -39,6 +43,7 @@ header img{
 }
 
 .myname{
+  text-align: center;
   font-size: 18px;
 }
 
@@ -75,7 +80,7 @@ margin: 5%;
 }
 
 .photo_home{
-  width: 80vw;
+  width: 85vw;
   height: 50vh;
   border-radius: 10px;
 }
@@ -143,13 +148,25 @@ textarea::placeholder {
   color: white;
 }
 
+.div-form button{
+  border-radius: 10px;
+  border: 'none';
+  cursor: pointer;
+}
+
+.div-form button:hover{
+  background-color: rgb(239, 87, 87);
+}
+
+
+
 /* Tarjetas */
 
 .stytle_cards{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 70vw;
   height: 40vh;
   background: linear-gradient(to bottom,rgb(239, 87, 87), white);
   border-radius: 10px;
@@ -169,7 +186,7 @@ textarea::placeholder {
 .containers_cardsred, .repo{
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 5vh;
   font-size: 13px;
   color: black;
   text-align: center;
@@ -179,7 +196,7 @@ textarea::placeholder {
 .card_technology {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8px;
+  grid-gap: 5px;
   align-items: center;
   justify-items: center;
 }
@@ -208,13 +225,12 @@ textarea::placeholder {
 }
 
 .photo_react {
-
-  width: 20vw;
+  width: 18vw;
   height: 10vh;
 }
 
 .photo_hcj {
-  width: 40vw;
+  width: 35vw;
   height: 12vh;
 }
 
@@ -225,19 +241,16 @@ textarea::placeholder {
 }
 
 .photo_Git {
-
-  width: 17vw;
+  width: 20vw;
   height: 11vh;
 }
 
 .photo_Figma {
-
-  width: 30vw;
+  width: 35vw;
   height: 11vh;
 }
 
 .photo_Excel {
-
   width: 20vw;
   height: 11vh;
 }
@@ -248,13 +261,13 @@ textarea::placeholder {
   height: 11vh;
 }
 .photo_C{
-  width: 20vw;
-  height: 11vh;
+  width: 15vw;
+  height: 10vh;
 }
 
 .photo_latex{
-  width: 25vw;
-  height: 11vh;
+  width: 30vw;
+  height: 7vh;
 }
 
 .stytle_cards_Tecnology{
@@ -287,7 +300,6 @@ textarea::placeholder {
 
 /* Media query para pantallas grandes (escritorios) */
 @media (min-width: 1024px) {
-
   .stytle_cards{
     width: 25vw;
     height: 45vh;
@@ -327,13 +339,7 @@ textarea::placeholder {
 }
 
 /* Media query para pantallas pequeñas (teléfonos móviles) */
-@media (max-width: 767px) {
-  /* Estilos para pantallas pequeñas */
-}
-
-
-/* Media query para dispositivos móviles con pantalla de hasta 320px de ancho */
-@media (max-width: 320px) {
-  /* Estilos específicos para dispositivos móviles con pantallas estrechas */
+@media (min-width: 767px) {
 
 }
+
