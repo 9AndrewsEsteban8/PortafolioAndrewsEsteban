@@ -229,53 +229,14 @@ textarea::placeholder {
   }
 }
 
-/* .photo_react {
-  width: 18vw;
-  height: 10vh;
-}
-
-.photo_hcj {
-  width: 35vw;
-  height: 12vh;
-}
-
-.photo_GitHub {
-
-  width: 13vw;
-  height: 9vh;
-}
-
-.photo_Git {
-  width: 20vw;
-  height: 11vh;
-}
-
-.photo_Figma {
-  width: 35vw;
-  height: 11vh;
-}
-
-.photo_Excel {
-  width: 20vw;
-  height: 11vh;
-}
-
-.photo_Csharp {
-  width: 20vw;
-  height: 11vh;
-}
-.photo_C{
-  width: 15vw;
-  height: 10vh;
-}
-
-.photo_latex{
-  width: 30vw;
-  height: 7vh;
-} */
-
 .stytle_cards_Tecnology{
   background: linear-gradient(to bottom,#FFDE59, white);
+}
+
+.photo_projects{
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
 }
 
 
