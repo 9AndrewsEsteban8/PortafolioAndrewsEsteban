@@ -112,7 +112,7 @@ margin: 5%;
 .social_networks_footer{
   display: flex;
   justify-content: space-around;
-  gap: 100px;
+  gap: 20px;
 }
 
 
@@ -232,21 +232,17 @@ textarea::placeholder {
   }
 }
 
+/* proyectos */
+
 .stytle_cards_Tecnology{
   background: linear-gradient(to bottom,#FFDE59, white);
 }
 
-.photo_projects{
-  width: 20%;
-  height: 20%;
-  border-radius: 10px;
-}
 
-/* proyectos */
 
 .containterProjects {
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: column;
   color: black;
   font-size: 15px;
@@ -281,28 +277,95 @@ textarea::placeholder {
 }
 
 
-/* Media query para pantallas grandes (escritorios) */
-@media (min-width: 1024px) {
-  .stytle_cards{
-    width: 25vw;
-    height: 45vh;
+@media (min-width: 768px) {
+
+  /* header */
+  header{
+    justify-content: space-around;
+  }
+
+  header img{
+    width: 10vw;
+    height: 10vh;
+  }
+
+  /* home */
+
+  .myname{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .jobs {
+    font-size: 25px;
   }
 
   .photo_home{
-    width: 35vw;
+    width: 60vw;
     height: 60vh;
   }
 
-  .title-container{
-    flex-direction: row-reverse;
+  /* Tarjetas */
 
+  .stytle_cards{
+    width: 60vw;
+    height: 40vh;
+    font-size: 16px;
   }
 
-  .containers_cardsred, .repo{
+  .photo{
+    width: 60%;
+    height: 60%;
+  }
+
+  .card_technology {
+    gap: 0;
+  }
+
+  /* proyectos */
+
+  .stytle_cards_Tecnology{
+    padding: 0;
+  }
+
+  .containterProjects img{
+    width: 50vw;
+    height: 35vh;
+  }
+
+  /* contacto */
+
+  .styles_contact img{
+    height: 50vh;
+    border-radius: 10px;
+  }
+
+  .container_contactfrom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .form-mail{
+    gap: 3vh;
+  }
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+  .stytle_cards{
+    width: 20vw;
+    height: 35vh;
+  }
+
+
+  .containers_cardsred,.repo{
     flex-direction: row;
-    margin: 5%;
-  }
 
+  }
   .line {
     display: block;
     border-top: 5px solid white; 
@@ -310,64 +373,14 @@ textarea::placeholder {
     width: 80vw;
   }
 
-  .photo_react {
-    width: 10vw;
-    height: 8vh;
-  }
-  
-  .photo_hcj {
-    width: 10vw;
-    height: 8vh;
-  }
-  
-  .photo_GitHub {
-  
-    width: 13vw;
-    height: 9vh;
-  }
-  
-  .photo_Git {
-    width: 10vw;
-    height: 11vh;
-  }
-  
-  .photo_Figma {
-    width: 8vw;
-    height: 8vh;
-  }
-  
-  .photo_Excel {
-    width: 10vw;
-    height: 11vh;
-  }
-  
-  .photo_Csharp {
-    width: 10vw;
-    height: 11vh;
-  }
-  .photo_C{
-    width: 15vw;
-    height: 10vh;
-  }
-  
-  .photo_latex{
-    width: 10vw;
-    height: 7vh;
+  .containterProjects img{
+    width: 50vw;
+    height: 35vh;
   }
 }
 
-/* Media query para tabletas en orientación vertical */
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-  /* Estilos para tabletas en orientación vertical */
-}
 
-/* Media query para tabletas en orientación horizontal */
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  /* Estilos para tabletas en orientación horizontal */
-}
 
-/* Media query para pantallas pequeñas (teléfonos móviles) */
-@media (min-width: 767px) {
 
-}
+
 

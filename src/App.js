@@ -36,24 +36,28 @@ function App() {
         <hr className="line" />
         <h1>Proyectos realizados por mi</h1>
         <p>Haz click en la imagen para ver el proyecto</p>
-        <Projects
-        link='https://sabujcha-web.vercel.app/' 
-        imgSrc={firstproject}   
-        imgAlt='foto_primerproyecto'    
-        />
-        <Projects
-        link='https://pokemon-api-red.vercel.app/' 
-        imgSrc={secondproject}   
-        imgAlt='foto_segundoproyecto'    
-        />
-        <Projects
-        link='https://genero-front-six.vercel.app/' 
-        imgSrc={thirdproject}   
-        imgAlt='foto_tercerproyecto'    
-        />
+        <div className='repo'>
+          <Projects
+          link='https://sabujcha-web.vercel.app/' 
+          imgSrc={firstproject}   
+          imgAlt='foto_primerproyecto'    
+          />
+          <Projects
+          link='https://pokemon-api-red.vercel.app/' 
+          imgSrc={secondproject}   
+          imgAlt='foto_segundoproyecto'    
+          />
+          <Projects
+          link='https://genero-front-six.vercel.app/' 
+          imgSrc={thirdproject}   
+          imgAlt='foto_tercerproyecto'    
+          />
+        </div>
       </section>
-      <Contact_me/>
-      <From/>
+      <div className='container_contactfrom'>
+        <Contact_me/>
+        <From/>
+      </div>
       <Footer/>
     </div>
   );
