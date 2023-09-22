@@ -21,7 +21,7 @@ function App() {
       <Header/>
       <Home/>
       <section className='Container_cards'>
-        <h1>Sobre mi</h1>
+        <h2>Sobre mi</h2>
         <div className='containers_cardsred'>
         <Cards>
           <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas.<br/> 
@@ -30,11 +30,11 @@ function App() {
           Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades como el compromiso y el trabajo en equipo.<br/> 
           De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
         </Cards>
-        <h1>Tecnologías manejadas</h1>
+        <h2>Tecnologías manejadas</h2>
         <Tecnology/>
         </div>
         <hr className="line" />
-        <h1>Proyectos realizados por mi</h1>
+        <h2>Proyectos realizados por mi</h2>
         <p>Haz click en la imagen para ver el proyecto</p>
         <div className='repo'>
           <Projects

@@ -9,7 +9,7 @@ body{
   font-family: 'Mooli', sans-serif;
 }
 
-a,h1{
+a,h1,h2{
   color: white;
 }
 
@@ -174,6 +174,7 @@ textarea::placeholder {
   background: linear-gradient(to bottom,rgb(239, 87, 87), white);
   border-radius: 10px;
   padding: 20px;
+  font-size: 10px;
 }
 
 .Container_cards{
@@ -301,21 +302,25 @@ textarea::placeholder {
   }
 
   .photo_home{
-    width: 60vw;
+    width: 80vw;
     height: 60vh;
   }
 
   /* Tarjetas */
 
+  h2{
+    font-size: 3vh;
+  }
+
   .stytle_cards{
     width: 60vw;
     height: 40vh;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .photo{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
   }
 
   .card_technology {
@@ -336,7 +341,7 @@ textarea::placeholder {
   /* contacto */
 
   .styles_contact img{
-    height: 50vh;
+    height: 30vh;
     border-radius: 10px;
   }
 
@@ -344,11 +349,12 @@ textarea::placeholder {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 5%;
   }
 
-  .form-mail{
+  /* .form-mail{
     gap: 3vh;
-  }
+  } */
 
 
 
@@ -374,8 +380,8 @@ textarea::placeholder {
   }
 
   .containterProjects img{
-    width: 50vw;
-    height: 35vh;
+    width: 18vw;
+    height: 30vh;
   }
 }
 
