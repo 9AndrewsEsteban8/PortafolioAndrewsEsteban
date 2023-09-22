@@ -8,7 +8,7 @@ import photoFigma from '../images/logofigma.png'
 import photoExcel from '../images/LogoExcel.png'
 import photoCsharp from '../images/csharp.png'
 import photoC from '../images/logoc++.png'
-import photolatex from '../images/LaTeX_logo.png'
+import photopy from '../images/python_logo.png'
 
 const Tecnology = () => {
   return (
@@ -22,7 +22,7 @@ const Tecnology = () => {
           <img className='photo photo_hcj animate' src={photoHCJ} alt="fotodehtmlcssyjavascript" />
           <img className='photo photo_Excel animate' src={photoExcel} alt="fotoExcel" />
           <img className='photo photo_Csharp animate' src={photoCsharp} alt="fotoCsharp" />
-          <img className='photo photo_latex animate' src={photolatex} alt="fotolatex" />
+          <img className='photo photo_python animate' src={photopy} alt="fotopython" />
           <img className='photo photo_C animate' src={photoC} alt="fotoC++" />
         </div>
       </Cards>

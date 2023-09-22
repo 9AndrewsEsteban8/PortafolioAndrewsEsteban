@@ -1,15 +1,18 @@
-import React from 'react'
-import Cards from './Cards'
-import firstproject from '../images/Project_Sabuja.png'
+import React from 'react';
+import Cards from './Cards';
 
-const Projects = ({children}) => {
+const Projects = (props) => {
+  const { link, imgSrc, imgAlt } = props; 
+
   return (
-    <div>
-        <Cards modifier="Tecnology"/>
-        {children}
-        <img id='fotosabuj1' src={firstproject} alt='fotoprimerproyectotiendaonline'/>
+    <div className='containterProjects'>
+      <Cards modifier="Tecnology">
+        <a href={link}> 
+          <img src={imgSrc} alt={imgAlt} />
+        </a>
+      </Cards>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
