@@ -21,21 +21,25 @@ function App() {
       <Header/>
       <Home/>
       <section className='Container_cards'>
-        <h2>Sobre mi</h2>
+        
         <div className='containers_cardsred'>
-        <Cards>
-          <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas.<br/> 
-          He trabajado con tecnologías como React,Git y Github; centrándome en el desarrollo web. <br/> 
-          Mi principal objetivo es convertir diseños creativos en código funcional. <br/> 
-          Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades como el compromiso y el trabajo en equipo.<br/> 
-          De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
-        </Cards>
-        <h2>Tecnologías manejadas</h2>
+          <div className='aboutme'>
+            <h2>Sobre mi</h2>
+            <Cards>         
+              <p>Soy un apasionado desarrollador web Frontend con experiencia en la creación de interfaces atractivas con responsivas.<br/> 
+              He trabajado con tecnologías como React,Git y Github; centrándome en el desarrollo web. <br/> 
+              Mi principal objetivo es convertir diseños creativos en código funcional. <br/> 
+              Mi experiencia como Guardián me ha generado una experiencia de 4 años en habilidades como el compromiso y el trabajo en equipo.<br/> 
+              De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
+            </Cards>
+          </div>
         <Tecnology/>
         </div>
         <hr className="line" />
-        <h2>Proyectos realizados por mi</h2>
-        <p>Haz click en la imagen para ver el proyecto</p>
+        <div className='text_projects'>
+          <h2>Proyectos realizados por mi</h2>
+          <p>Haz click en la imagen para ver el proyecto</p>
+        </div>
         <div className='repo'>
           <Projects
           link='https://sabujcha-web.vercel.app/' 

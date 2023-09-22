@@ -13,6 +13,7 @@ import photopy from '../images/python_logo.png'
 const Tecnology = () => {
   return (
     <div>
+      <h2>Tecnologías manejadas</h2>
       <Cards>
         <div className='card_technology'>
           <img className='photo photo_react animate' src={photoreact} alt="fotodereact" />

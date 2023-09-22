@@ -16,8 +16,10 @@ const Home = () => {
 
   return (
     <div className="title-container">
-      <h1 className="myname">Andrews Castillo, Andres Esteban</h1>
-      <span className="jobs">{jobs[currentJobIndex]}</span>
+      <div className='text-home'>
+        <h1 className="myname">Andrews Castillo, Andres Esteban</h1>
+        <span className="jobs">{jobs[currentJobIndex]}</span>
+      </div>
       <img className="photo_home" src={foto} alt="foto.mia" />
     </div>
   );
