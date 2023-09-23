@@ -7,7 +7,7 @@ import iconPage from '../images/Logo.png';
 
 const socialLinks = [
     { href: 'https://www.facebook.com/Esteban.Andrews', icon: faFacebook },
-    { href: 'www.linkedin.com/in/andrewsesteban', icon: faLinkedin },
+    { href: 'http://www.linkedin.com/in/andrewsesteban', icon: faLinkedin },
     { href: 'https://www.instagram.com/andrews_esteban/', icon: faInstagram },
 ];
 
