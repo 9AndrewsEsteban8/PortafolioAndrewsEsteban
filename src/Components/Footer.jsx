@@ -5,9 +5,9 @@ import SocialIcon from './SocialIcon';
 
 
 const socialLinks = [
-  { href: 'https://github.com/9AndrewsEsteban8', icon: faGithub },
-  { href: 'https://torre.ai/andrewsesteban', icon: faChessRook },
-  { href: 'mailto:andrewsesteban7@gmail.com', icon: faEnvelope},
+  { href: 'https://github.com/9AndrewsEsteban8', icon: faGithub,text:'Github'},
+  { href: 'https://torre.ai/andrewsesteban', icon: faChessRook ,text:'Torre'},
+  { href: 'mailto:andrewsesteban7@gmail.com', icon: faEnvelope,text:'Correo'},
 ];
 
 
@@ -17,7 +17,11 @@ const Footer = () => {
     <div  className='footer'>
       <nav className='social_networks_footer'>
         {socialLinks.map((link,index)=>(
-          <SocialIcon key={index} href={link.href} icon={link.icon}/>
+          <SocialIcon 
+          key={index} 
+          href={link.href} 
+          icon={link.icon}
+          text={link.text}/>
         ))}
         </nav>
         <p>

@@ -44,17 +44,23 @@ function App() {
           <Projects
           link='https://sabujcha-web.vercel.app/' 
           imgSrc={firstproject}   
-          imgAlt='foto_primerproyecto'    
+          imgAlt='foto_primerproyecto'  
+          text= 'Tienda online'
+          linkrepo='https://github.com/JorgeT0rr3s/Sabujcha-web.git'
           />
           <Projects
           link='https://pokemon-api-red.vercel.app/' 
           imgSrc={secondproject}   
-          imgAlt='foto_segundoproyecto'    
+          imgAlt='foto_segundoproyecto'
+          text= 'Pokedex' 
+          linkrepo='https://github.com/JorgeT0rr3s/Pokemon-api.git'   
           />
           <Projects
           link='https://genero-front-six.vercel.app/' 
           imgSrc={thirdproject}   
-          imgAlt='foto_tercerproyecto'    
+          imgAlt='foto_tercerproyecto' 
+          text= 'Landing page'
+          linkrepo='https://github.com/programateacademy/genero-front.git' 
           />
         </div>
       </section>

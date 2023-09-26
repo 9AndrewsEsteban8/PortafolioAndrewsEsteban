@@ -42,6 +42,12 @@ header img{
   height: 60px;
 }
 
+.text-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .myname{
   text-align: center;
   font-size: 18px;
@@ -116,6 +122,7 @@ margin: 5%;
 }
 
 
+
 /* Contacto */
 
 
@@ -173,8 +180,8 @@ textarea::placeholder {
   height: 35vh;
   background: linear-gradient(to bottom,rgb(239, 87, 87), white);
   border-radius: 10px;
-  padding: 20px;
-  font-size: 10px;
+  padding: 5%;
+  font-size: 8px;
 }
 
 .Container_cards{
@@ -182,7 +189,6 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 2vh;
 }
 
@@ -200,14 +206,14 @@ textarea::placeholder {
 .card_technology {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5%;
+  grid-gap: 2%;
   align-items: center;
   justify-items: center;
 }
 
 .photo{
-  width: 20ww;
-  height: 8vh;
+  width: 18ww;
+  height: 11vh;
 }
 
 
@@ -239,10 +245,14 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .stytle_cards_Tecnology{
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(to bottom,#FFDE59, white);
+  gap: 5px;
 }
 
 
@@ -251,14 +261,28 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: black;
+  color: white;
   font-size: 15px;
 }
 
 .containterProjects img{
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   border-radius: 10px;
+}
+
+.containterProjects img:hover{
+  opacity: 0.6;
+}
+
+.containterProjects button{
+  background-color: rgb(239, 87, 87);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.containterProjects button:hover{
+  background-color: rgb(255, 255, 255);
 }
 
 /* Contacto */
@@ -272,7 +296,7 @@ textarea::placeholder {
 
 .styles_contact img{
   width: 100%;
-  height: 200px;
+  height: 45vh;
 }
 
 .links_contact{
@@ -292,7 +316,7 @@ textarea::placeholder {
   }
 
   header img{
-    width: 10vw;
+    width: 15vw;
     height: 10vh;
   }
 
@@ -308,8 +332,9 @@ textarea::placeholder {
   }
 
   .photo_home{
-    width: 80vw;
-    height: 60vh;
+    border-radius: 30px;
+    width: 70vw;
+    height: 40vh;
   }
 
   /* Tarjetas */
@@ -325,23 +350,33 @@ textarea::placeholder {
   }
 
   .photo{
-    width: 85%;
+    width: 80%;
     height: 80%;
   }
 
-  .card_technology {
-    gap: 0;
-  }
 
   /* proyectos */
 
+  .containterProjects button{
+    font-size: 2vh;
+  }
+
+  .text_projects p{
+    font-size: 2vh;
+  }
+
+  .containterProjects h3{
+    font-size: 3vh;
+  }
+
   .stytle_cards_Tecnology{
     padding: 0;
+    gap: 2vh;
   }
 
   .containterProjects img{
     width: 50vw;
-    height: 35vh;
+    height: 30vh;
   }
 
   /* contacto */
@@ -356,6 +391,10 @@ textarea::placeholder {
     justify-content: space-around;
     align-items: center;
     gap: 5%;
+  }
+
+  .fa-2x {
+    font-size: 3em;
   }
 
 }
@@ -425,12 +464,6 @@ textarea::placeholder {
     gap: 10%;
   }
 
-  .text-home{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .photo_home {
     width: 25vw;
     height: 40vh;
@@ -473,13 +506,27 @@ textarea::placeholder {
   }
 
   .containterProjects img{
-    width: 27vw;
-    height:31vh;
+    width: 25vw;
+    height:28vh;
   }
 
-  .containterProjects img:hover{
-    opacity: 0.6;
+  .containterProjects h3{
+    font-size: 3vh;
   }
+  .footer{
+    padding: 2%;
+    gap: 4%;
+  }
+
+  .footer p{
+    font-size: 2vh;
+    margin-top: 5vh;
+  }
+
+  .footer .fa-2x{
+    font-size: 10em;
+  }
+  
 
 
   
