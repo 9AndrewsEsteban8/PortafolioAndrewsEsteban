@@ -12,7 +12,7 @@ const Contact_me = () => {
           <FontAwesomeIcon className='icon-contact' icon={faLocationDot} size='2x'/>
           <p>Bogotá, Colombia</p>
           <FontAwesomeIcon className='icon-contact' icon={faPhone} size='2x'/>
-          <p>(+57)3134020890</p> 
+          <p>(+57)</p> 
         </div>     
     </div>
   )

@@ -408,7 +408,7 @@ textarea::placeholder {
   }
 
   header img{
-    width: 20vw;
+    width: 13vw;
     height: 15vh;
   }
 
@@ -421,16 +421,29 @@ textarea::placeholder {
   }
 
   .stytle_cards{
-    width: 20vw;
+    width: 25vw;
     height: 35vh;
   }
 
 
   .containers_cardsred,.repo{
     flex-direction: row;
-
+    
   }
-  .line {
+  .containers_cardsred{
+    gap: 10vw;
+  }
+
+  .aboutme p{
+    font-size: 15px;
+  }
+
+
+  .repo{
+    gap: 5vw;
+  }
+
+  .line{
     display: block;
     border-top: 5px solid white; 
     margin: 20px 0; 
@@ -439,15 +452,38 @@ textarea::placeholder {
 
   .containterProjects img{
     width: 18vw;
-    height: 30vh;
+    height: 25vh;
+  }
+
+  .text_projects h2{
+    font-size: 30px;
+  }
+
+  .text_projects p{
+    font-size: 20px;
+  }
+
+  .container_contactfrom{
+    gap: 0;
+    font-size: 25px;
+  }
+
+  .styles_contact img{
+    width: 85%;
+    height: 85%;
   }
 
   .social_networks{
-    gap: 50px;
+    gap: 40px;
   }
 
   .fa-2x {
-    font-size: 5em;
+    font-size: 3em;
+  }
+
+  .title-container{
+    flex-direction: row;
+    gap: 10%;
   }
 }
 
