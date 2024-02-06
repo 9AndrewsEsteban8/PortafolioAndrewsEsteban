@@ -5,8 +5,7 @@ import iconPage from '../images/Logo.png';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className='navbar'>
-            
+        <div className='navbar'>  
             <nav className={`nav_items ${isOpen && "open"}`}>
                 <a href="#">Perfil</a>
                 <a href="#">Educación</a>
