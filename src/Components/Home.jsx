@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import foto from '../images/Foto_Inicio.jpeg';
-// import iconPage from '../images/Logo.png';
 
 const Home = () => {
   const jobs = ['Desarollador FrontEnd', 'Mecánico', 'Electrónico'];

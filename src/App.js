@@ -13,15 +13,12 @@ import thirdproject from '../src/images/Project_Lading.png'
 
 
 
-
-
 function App() {
   return (
     <div className="App">
       <Header/>
       <Home/>
       <section className='Container_cards'>
-        
         <div className='containers_cardsred'>
           <div className='aboutme'>
             <h2>Sobre mi</h2>
