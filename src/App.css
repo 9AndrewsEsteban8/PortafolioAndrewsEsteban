@@ -97,7 +97,7 @@ a:hover ,
 
 .nav_logo{
   width: 25vw;
-  height: 15vh;
+  height: 12vh;
 }
 
 .text-home{
@@ -153,6 +153,15 @@ margin: 5%;
 
 .line{
   display: none;
+}
+
+/* Socialmedia */
+
+.container-socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
 }
 
 /* Footer */
@@ -241,6 +250,7 @@ textarea::placeholder {
   border-radius: 10px;
   padding: 2vh;
   font-size: 80%;
+  color: black;
 }
 
 .Container_cards{
@@ -257,7 +267,6 @@ textarea::placeholder {
   flex-direction: column;
   gap: 5vh;
   font-size: 13px;
-  color: black;
   text-align: center;
 
 }
@@ -460,8 +469,12 @@ textarea::placeholder {
 @media (min-width: 1280px) {
 
   .photo_home {
-    width: 45vw;
-    height: 40vh;
+    width: 30vw;
+    height: 45vh;
+  }
+  
+  .photo{
+    width: 60%;
   }
 
   .nav_logo{
@@ -566,13 +579,14 @@ textarea{
   h2{
     font-size: 4vh;
   }
-  .aboutme{
+  .aboutme, .repo{
     display: flex;
     flex-direction: column;
   }
 
   .containers_cardsred{
     gap: 10vw;
+
   }
 
   .stytle_cards {
