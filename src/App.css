@@ -144,8 +144,8 @@ margin: 5%;
 }
 
 .photo_home{
-  width: 85vw;
-  height: 50vh;
+  width: 80vw;
+  height: 40vh;
   border-radius: 10px;
 }
 
@@ -239,8 +239,8 @@ textarea::placeholder {
   height: 35vh;
   background: linear-gradient(to bottom,rgb(239, 87, 87), white);
   border-radius: 10px;
-  padding: 5%;
-  font-size: 8px;
+  padding: 2vh;
+  font-size: 80%;
 }
 
 .Container_cards{
@@ -271,8 +271,8 @@ textarea::placeholder {
 }
 
 .photo{
-  width: 18ww;
-  height: 11vh;
+  width: 80%;
+  height: 80%;
 }
 
 
@@ -374,7 +374,7 @@ textarea::placeholder {
 
   .nav_logo{
     width: 10vw;
-    height: 10vh;
+    height: 12vh;
   }
 
   /* home */
@@ -390,8 +390,8 @@ textarea::placeholder {
 
   .photo_home{
     border-radius: 30px;
-    width: 70vw;
-    height: 40vh;
+    width: 60vw;
+    height: 60vh;
   }
 
   /* Tarjetas */
@@ -402,13 +402,13 @@ textarea::placeholder {
 
   .stytle_cards{
     width: 60vw;
-    height: 40vh;
+    height: 60vh;
     font-size: 2.5vh;
   }
 
   .photo{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 
 
@@ -433,7 +433,7 @@ textarea::placeholder {
 
   .containterProjects img{
     width: 50vw;
-    height: 30vh;
+    height: 40vh;
   }
 
   /* contacto */
@@ -444,10 +444,10 @@ textarea::placeholder {
   }
 
   .container_contactfrom{
+    margin: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 5%;
   }
 
   .fa-2x {
@@ -478,9 +478,9 @@ textarea::placeholder {
   }
 
   .stytle_cards{
-    width: 20vw;
+    width: 28vw;
     height: 35vh;
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
 
 
@@ -500,7 +500,7 @@ textarea::placeholder {
 
   .containterProjects img{
     width: 18vw;
-    height: 30vh;
+    height: 25vh;
   }
 
   .social_networks{
@@ -510,6 +510,39 @@ textarea::placeholder {
   .fa-2x {
     font-size: 5em;
   }
+  /* Contacto */
+
+  .links_contact {
+    font-size: 100%;
+  }
+
+
+.div-form input{
+  width: 25vw;
+  height: 2vh;
+}
+
+
+.div-form button{
+  width: 15vh;
+  font-size: 2vh;
+}
+
+
+textarea{
+  width: 25vw;
+  height: 25vh;
+  font-size: 3vh;
+}
+
+.div-form label{
+  font-size: 3vh;
+}
+
+.footer p{
+  font-size: 2.5vh;
+}
+
 }
 
 
