@@ -25,15 +25,6 @@ a:hover ,
 /* Header*/
 
 
-header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
-  height: 999px;
-
-}
-
 .navbar{
   background:rgb(239, 87, 87);
   width: 100%;
@@ -375,9 +366,7 @@ textarea::placeholder {
 @media (min-width: 768px) {
 
   /* header */
-  header{
-    justify-content: space-around;
-  }
+
 
   .nav_logo{
     width: 10vw;
@@ -410,7 +399,7 @@ textarea::placeholder {
   .stytle_cards{
     width: 60vw;
     height: 40vh;
-    font-size: 20px;
+    font-size: 2.5vh;
   }
 
   .photo{
@@ -487,13 +476,17 @@ textarea::placeholder {
   .stytle_cards{
     width: 20vw;
     height: 35vh;
+    font-size: 1.5vh;
   }
 
 
+  .containers_cardsred{
+    gap: 20vw;
+  }
   .containers_cardsred,.repo{
     flex-direction: row;
-
   }
+
   .line {
     display: block;
     border-top: 5px solid white; 
@@ -519,8 +512,8 @@ textarea::placeholder {
 @media (min-width: 1600px) {
 
   .nav_logo{
-    width: 5vw;
-    height: 20vh;
+    width: 8vw;
+    height: 8vh;
   }
 
   .title-container{
