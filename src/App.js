@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Contactme from './Components/Contactme';
 import Footer from './Components/Footer';
 import From from './Components/From';
@@ -35,17 +35,19 @@ function App() {
                 De esta manera, logro proporcionar soluciones digitales de alta calidad en conjunto con colegas de diferentes áreas de especialización.</p>
             </Cards>
           </div>
-          <h2>Redes y Curriculum</h2>
-          <div className='container-socialmedia'>
-            <SocialIcon
-              href={'https://www.linkedin.com/in/andrewsesteban/'}
-              icon={faLinkedin}
-              text={'Linkedin'} />
+          <div className='Redes'>
+            <h2>Redes y Curriculum</h2>
+            <div className='container-socialmedia'>
+              <SocialIcon
+                href={'https://www.linkedin.com/in/andrewsesteban/'}
+                icon={faLinkedin}
+                text={'Linkedin'} />
 
-            <SocialIcon
-              href={Curriculum}
-              icon={faCloudDownload}
-              text={'Descargar CV'} />
+              <SocialIcon
+                href={Curriculum}
+                icon={faCloudDownload}
+                text={'Descargar CV'} />
+            </div>
           </div>
           <Tecnology />
         </div>

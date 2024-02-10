@@ -390,8 +390,8 @@ textarea::placeholder {
 
 
   .nav_logo{
-    width: 10vw;
-    height: 12vh;
+    width: 8vw;
+    height: 8vh;
   }
 
   /* home */
@@ -407,8 +407,8 @@ textarea::placeholder {
 
   .photo_home{
     border-radius: 30px;
-    width: 60vw;
-    height: 60vh;
+    width: 70vw;
+    height: 65vh;
   }
 
   /* Tarjetas */
@@ -418,14 +418,19 @@ textarea::placeholder {
   }
 
   .stytle_cards{
-    width: 60vw;
-    height: 60vh;
-    font-size: 2.5vh;
+    width: 70vw;
+    height: 70vh;
+    font-size: 3vh;
   }
 
   .photo{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 60%;
+  }
+
+  .card_technology{
+    width: 70vw;
+    height: 70vh;
   }
 
 
@@ -456,6 +461,7 @@ textarea::placeholder {
   /* contacto */
 
   .styles_contact img{
+    width: 50vw;
     height: 30vh;
     border-radius: 10px;
   }
@@ -465,16 +471,22 @@ textarea::placeholder {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 10%;
   }
 
   .fa-2x {
-    font-size: 3em;
+    font-size: 5em;
   }
 
 }
 
 
 @media (min-width: 1280px) {
+
+  .title-container{
+    flex-direction: row;
+    gap: 10%;
+  }
 
   .photo_home {
     width: 30vw;
@@ -501,14 +513,35 @@ textarea::placeholder {
   .stytle_cards{
     width: 28vw;
     height: 35vh;
-    font-size: 1.7vh;
+    font-size: 2vh;
   }
 
+  .card_technology{
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .photo{
+    width: 60%;
+  }
 
   .containers_cardsred{
-    gap: 20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    grid-template-rows: auto 1fr; /* La primera fila se ajusta al contenido, la segunda ocupa el espacio restante */
+    gap: 5%; /* Espacio entre celdas */
+    height: 50vw; /* Altura del contenedor, ajusta según tus necesidades */
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
   }
-  .containers_cardsred,.repo{
+
+  .Redes {
+    grid-column: span 2; /* Ocupa las dos columnas */
+    grid-row: 2; /* Está en la segunda fila */
+  }
+
+ .repo{
     flex-direction: row;
   }
 
@@ -532,6 +565,11 @@ textarea::placeholder {
     font-size: 5em;
   }
   /* Contacto */
+
+  .styles_contact img {
+    width: 30vw;
+    height: 30vh;
+}
 
   .links_contact {
     font-size: 100%;
@@ -570,13 +608,8 @@ textarea{
 @media (min-width: 1600px) {
 
   .nav_logo{
-    width: 8vw;
+    width: 6vw;
     height: 8vh;
-  }
-
-  .title-container{
-    flex-direction: row;
-    gap: 10%;
   }
 
   .photo_home {
@@ -587,14 +620,13 @@ textarea{
   h2{
     font-size: 4vh;
   }
-  .aboutme, .repo{
+  .repo{
     display: flex;
-    flex-direction: column;
   }
 
   .containers_cardsred{
     gap: 10vw;
-
+    height: 110vh;
   }
 
   .stytle_cards {
@@ -612,11 +644,8 @@ textarea{
   .social_networks{
     gap: 100px;
   }
-  .social_networks  .fa-2x{
-    font-size: 7em;
-  }
-  
 
+  
   .text_projects p{
     font-size: 4vh;
   }
@@ -640,7 +669,7 @@ textarea{
   }
 
   .footer .fa-2x{
-    font-size: 10em;
+    font-size: 5em;
   }
   
 }

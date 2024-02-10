@@ -11,7 +11,7 @@ const Header = () => {
                     Sobre mi
                 </ScrollLink>
 
-                <ScrollLink  className="scroll-link" to="container-socialmedia" smooth={true} offset={-150}>
+                <ScrollLink  className="scroll-link" to="container-socialmedia" smooth={true} offset={-175}>
                     Curriculum
                 </ScrollLink>
 
