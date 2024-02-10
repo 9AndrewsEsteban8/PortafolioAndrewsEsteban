@@ -1,5 +1,6 @@
 import './App.css';
-import Contact_me from './Components/Contact_me';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Contactme from './Components/Contactme';
 import Footer from './Components/Footer';
 import From from './Components/From';
 import Header from './Components/Header';
@@ -19,7 +20,7 @@ import Curriculum from '../src/Documentes/CV Andresw Esteban.pdf'
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
       <Home />
       <section className='Container_cards'>
@@ -78,11 +79,11 @@ function App() {
         </div>
       </section>
       <div className='container_contactfrom'>
-        <Contact_me />
+        <Contactme />
         <From />
       </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

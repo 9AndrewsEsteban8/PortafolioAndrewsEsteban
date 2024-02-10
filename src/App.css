@@ -100,6 +100,14 @@ a:hover ,
   height: 12vh;
 }
 
+.scroll-link {
+  cursor: pointer;
+}
+
+.scroll-link:hover{
+  color: #FFDE59;
+}
+
 .text-home{
   display: flex;
   flex-direction: column;
